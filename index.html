@@ -584,7 +584,7 @@
           
           const playersOnline = data.players?.online || 0;
           const playersMax = data.players?.max || 0;
-          playerCount.textContent = `${playersOnline} / ${playersMax}`;
+          playerCount.textContent = `${playersOnline}`;
           
           const version = data.version || '--';
           serverVersion.textContent = version;
